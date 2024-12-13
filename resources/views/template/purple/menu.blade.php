@@ -43,7 +43,7 @@
             </div>
         </li>
 
-        @if(auth()->user()->level == "admin"){
+        @if(auth()->user()->level == "admin")
         
         
         <li class="nav-item @if(Request::segment(1) == 'periode') active @endif">
